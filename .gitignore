@@ -1,0 +1,13 @@
+# Ignore Terraform downloaded provider directories anywhere
+**/.terraform/
+
+# Ignore all state files, backups, and alternate workspace states
+*.tfstate
+*.tfstate.*
+
+# Ignore all binary plan files
+*tfplan*
+
+# Ignore evidence artifacts anywhere in the repo
+**/evidence/plan.json
+**/evidence/state.json

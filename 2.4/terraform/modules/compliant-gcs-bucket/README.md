@@ -1,0 +1,1 @@
+This module encodes SC-12, SC-13, SC-28, AU-11, and CM-6 controls so they cannot be turned off by a consumer.

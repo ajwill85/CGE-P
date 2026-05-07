@@ -7,7 +7,3 @@
 
 # Ignore all binary plan files
 *tfplan*
-
-# Ignore evidence artifacts anywhere in the repo
-**/evidence/plan.json
-**/evidence/state.json

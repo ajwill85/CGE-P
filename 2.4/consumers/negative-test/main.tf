@@ -12,12 +12,12 @@ provider "google" {
 }
 
 module "data_bucket" {
-  source = "../../modules/compliant-gcs-bucket"
+  source = "../../terraform/modules/compliant-gcs-bucket"
 
   gcp_project        = "celestial-sonar-479723-s1"
   project_label      = "cgep-lab"
-  environment        = "prod"
-  retention_days     = 30 # FAILS: prod requires >= 365
+  environment        = "dev"
+  retention_days     = 30
   bucket_name_suffix = "should-never-exist"
 }
 
